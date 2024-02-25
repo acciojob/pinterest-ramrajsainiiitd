@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.hero>img{
+	width:400px;
+	height:300px;
+	object-fit:cover;
+}
+#hero_section>{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	padding:20px;
+}
+#hero_section>h1{
+	text-align:center;
+	padding:10px;
+}
+#hero_section>p{
+	text-align:center;
+	padding:10px;
+}
+#hero_section>button{
+	position:relative;
+	margin-left:60px;
+	align-items:center;
+}
+#btn{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:10%;
+	text-align:center;
+}
